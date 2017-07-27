@@ -7,6 +7,16 @@ import Toggle from './Toggle';
 import LoginControl from './LoginControl';
 import Page from './Warning';
 import NumberList from './NumberList';
+import NameForm from './Form1.js';
+import EssayForm from './Form2.js';
+import SelectForm from './SelectForm.js';
+import MoreInput from './MoreInput';
+import StateCalculator from './StateCalculator';
+import Calculator from './StateCalculator1.js';
+import WelcomeDialog from './ContainerChildren.js';
+import CustomChildren from './CustomChildren';
+
+
 import registerServiceWorker from './registerServiceWorker';
 
 // ReactDOM.render(<App />, document.getElementById('root'));
@@ -61,9 +71,50 @@ import registerServiceWorker from './registerServiceWorker';
 // 	document.getElementById('root')
 // )
 
-const numbers=[1,2,3,4,5];
+// const numbers=[1,2,3,4,5];
+// ReactDOM.render(
+// 	<NumberList numbers={numbers} />,
+// 	document.getElementById('root')
+// )
+
+// ReactDOM.render(
+// 	<NameForm />,
+// 	document.getElementById('root')
+// )
+
+// ReactDOM.render(
+// 	<EssayForm />,
+// 	document.getElementById('root')
+// )
+
+// ReactDOM.render(
+// 	<SelectForm />,
+// 	document.getElementById('root')
+// )
+
+// ReactDOM.render(
+// 	<MoreInput />,
+// 	document.getElementById('root')
+// )
+
+// ReactDOM.render(
+// 	<StateCalculator />,
+// 	document.getElementById('root')
+// )
+
+// ReactDOM.render(
+// 	<Calculator />,
+// 	document.getElementById('root')
+// )
+
+// ReactDOM.render(
+// 	<WelcomeDialog />,
+// 	document.getElementById('root')
+// )
+
 ReactDOM.render(
-	<NumberList numbers={numbers} />,
+	<CustomChildren />,
 	document.getElementById('root')
 )
+
 registerServiceWorker();
